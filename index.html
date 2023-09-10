@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-.grid-container {
-  display: grid;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/main.css">
 
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px;
-  font-size: 30px;
-}
-
-.resumes {
-  grid-column: 1 / span 2;
-  grid-row: 2;
-}
-</style>
 </head>
 <body>
 
 
-<div class="grid-container">
-  <div class="grid-item mechse">Mechanical Engineering
-    <input type="image" src="images/mechse.jpg" name="mechse" class="meButton" id="meLink" />
-  </div>
-  <div class="grid-item cs">Programming/CS</div>
-    <input type="image" src="images/mechse.jpg" name="mechse" class="meButton" id="meLink" />
-  <div class="grid-item resumes">Resumes</div>  
+<div id="navBar" class="navBar">
+    <img src="assets/profile_pic.jpg" alt="Picture of me" class="profilePic">
+    <ul class="navBarList">
+        <li class="navBarListBullet"><a class="navBarListLinkActive" href="index.html">About Me</a></li>
+        <li class="navBarListBullet"><a class="navBarListLink" href="software.html">Software Projects</a></li>
+        <li class="navBarListBullet"><a class="navBarListLink" href="mech.html">Mechanical Projects</a></li>
+        <li class="navBarListBullet"><a class="navBarListLink" href="contact.html">Contact Me</a></li>
+    </ul>
+</div>
+
+<div class="pageBody">
+    <h1 class="pageBodyHeading">About Me</h1>
+    <img src="assets/profile_pic.jpg" class="pageBodyPic" alt="Picture of me">
+    <h2 class="pageBodyHeading">Biography</h2>
+    <p>
+        I am a 1st year MCS student in the Computer Science Department at the University of Illinois at Urbana-Champaign.
+        I graduated from U of I with a Bachelor's in Mechanical Engineering.
+        My previous research experience is in the Nanoscale Manufacturing Node (see Software Projects) at U of I, working on image analysis and data visualization of graphene.
+        I have interned at the manufacturing company K.R. Komarek as a Mechanical Engineering Intern and at the software company MathWorks as a Release Engineering Intern. I previously worked full-time at Sargent and Lundy as an Instrumentation and Controls Engineer.
+
+    </p>
+
+    <h2 class="pageBodyHeading">Resume</h2>
+
+    <object class="pageBodyPDF" data="assets/Resume%20-%20Kevin%20Liu%20-%202023.pdf" type="application/pdf">
+        <p>Unable to display PDF file. <a href="assets/Resume%20-%20Kevin%20Liu%20-%202023.pdf">Download</a> instead.</p>
+    </object>
+
+
 </div>
 
 

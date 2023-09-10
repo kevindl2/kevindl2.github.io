@@ -1,0 +1,125 @@
+body {
+    font-size: 100%;
+}
+
+.profilePic {
+    border-radius: 50%;
+    height: 25%;
+    border: none;
+    margin: auto;
+}
+
+.navBar {
+    color: white;
+    background-color: black;
+    position: fixed;
+    width: 25%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    text-align: center;
+
+}
+
+.navBarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid darkgray;
+    height: 85%;
+}
+
+.pageBodyImgCaption {
+    text-align: center;
+}
+
+.navBarListBullet {
+    border-bottom: 1px solid darkgray;
+    font-size: 2em;
+}
+
+.navBarListBullet:last-child {
+    font-size: 2em;
+    border-bottom: 1px solid darkgray;
+}
+
+.navBarListLink {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+.navBarListLinkActive {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.navBarListLink:hover {
+    background-color: gray;
+}
+
+.pageBody {
+    background-color: white;
+    color: black;
+    margin-left: 30%;
+    position: static;
+    height: 100%;
+}
+
+.pageBodyPic {
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    display: block;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pageBodyProjectPic {
+    height: 50%;
+    width: 50%;
+    display: block;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pageBodyHeading {
+    text-align: center;
+}
+
+.pageBodyPDF{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 500px;
+}
+
+.pageBodyVideo {
+    max-height: 100vh;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pageBodyLink {
+    text-align: center;
+}
+
+.pageBodyFig {
+    max-height: 100vh;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
